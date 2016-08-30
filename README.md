@@ -1,4 +1,4 @@
-# get-property-names v0.1.0
+# get-property-names v1.0.0
 
 [![Circle CI](https://circleci.com/gh/kt3k/get-property-names.svg?style=svg)](https://circleci.com/gh/kt3k/get-property-names)
 [![codecov](https://codecov.io/gh/kt3k/get-property-names/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/get-property-names)
