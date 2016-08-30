@@ -1,0 +1,33 @@
+{
+  "name": "get-property-names",
+  "version": "0.1.0",
+  "description": "Non-`own` version of `Object.getOwnPropertyNames()`",
+  "main": "index.js",
+  "scripts": {
+    "l": "standard",
+    "test": "tape test.js",
+    "cov": "nyc --reporter=lcov npm test",
+    "codecov": "npm run cov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/get-property-names.git"
+  },
+  "keywords": [
+    "getOwnPropertyNames",
+    "prototype",
+    "enumerable"
+  ],
+  "author": "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/get-property-names/issues"
+  },
+  "homepage": "https://github.com/kt3k/get-property-names#readme",
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "nyc": "^8.1.0",
+    "standard": "^8.0.0",
+    "tape": "^4.6.0"
+  }
+}
