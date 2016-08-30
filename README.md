@@ -42,6 +42,8 @@ getPropertyNames(new C())
 //=> this returns `['baz', 'constructor', 'foo']`
 ```
 
+As the examples above, `getPropertyNames` returns the list of all the property names of an object, which includes non enumerable properties in its prototype chain.
+
 # License
 
 MIT
